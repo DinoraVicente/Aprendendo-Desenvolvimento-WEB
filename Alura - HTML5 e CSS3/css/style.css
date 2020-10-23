@@ -1,3 +1,102 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* CSS da página home*/
+
+.banner {
+	width: 100%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.titulo-principal {
+	padding: 10px;
+	margin: 0 0 1em;
+	text-align: center;
+	font-size: 2em;
+	clear: left;
+}
+
+.principal {
+	padding: 3em 0;
+	width: 940px;
+	margin: 0 auto;
+	background: #FEFEFE;
+}
+
+.principal p {
+	margin: 0 0 1em;
+}
+
+.principal strong {
+	font-weight: bold;
+}
+
+.principal em {
+	font-style: italic;
+}
+
+.utensilios {
+	width: 120px;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+.mapa {
+	padding: 3em 0;
+	background: linear-gradient(#FEFEFE, #888888);
+}
+
+.mapa-img {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.mapa p {
+	margin: 0 0 2em;
+	text-align: center;
+}
+
+.beneficios {
+	padding: 3em 0;
+	background: #878788;
+}
+
+.conteudo-beneficios {
+	width: 640px;
+	margin: 0 auto;
+}
+
+.benelist {
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.itens {
+	line-height: 1.5;
+}
+
+.itens:first-child {
+	font-weight: bold;
+}
+
+.itens:before {
+	content: "🟊";
+}
+
+.imagem-beneficios {
+	width: 60%;
+}
+
+.video {
+	width: 560px;
+	margin: 2em auto;
+}
+
+/* CSS da página produtos junto com a home*/
+
 header {
 	background: #BBBBBB;
 	padding: 20px 0;
@@ -90,24 +189,89 @@ footer {
 	margin: 20px 0;
 }
 
+/* CSS da página de contato*/
+
 main {
-	width: 940px;
-	margin: 0 auto;
+
 }
 
 form {
 	margin: 40px 0;
+	padding: 30px;
+	width: 940px;
+	margin: 0 auto;
 }
 
 form label {
 	display: block;
 	font-size: 20px; 
-	margin: 0 0 10px;
+	margin: 0 0 15px;
+	padding: 5px;
 }
 
-form input {
+.p-padrao {
+	display: block;
+	font-size: 20px; 
+	margin: 0 0 15px;
+	padding: 5px;
+}
+
+.opcoes {
+	font-size: 14px; 
+}
+
+.input-padrao {
 	display: block;
 	margin: 0 0 20px;
 	padding: 10px 25px;
 	width: 30%;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.div-checkbox {
+	margin: 20px 0;
+}
+
+.div-novidade {
+	margin: 20px 0;
+}
+
+.enviar {
+	background: #717171 ;
+	color: #FFFFFF;
+	border-radius: 10px;
+	font-size: 15px;
+	font-weight: bold;
+	font-style: italic;	
+	width: 25%;
+	padding: 10px 0;
+	transition: 1s all;
+	cursor: pointer;
+} 
+
+.enviar:hover {
+	background: #000000;
+	transform: scale(1.1);
+}
+
+.horario {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.horario-func {
+	margin: 20px 0 40px;
+}
+
+.horario-func thead {
+	background: #878787;
+	font-weight: bold;	
+}
+
+.horario-func td, th {
+	border: 1px solid #000000; 
+	padding: 8px 15px;
 }
