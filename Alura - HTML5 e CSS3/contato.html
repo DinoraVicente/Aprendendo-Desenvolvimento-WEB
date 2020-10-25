@@ -2,9 +2,10 @@
 <html lang="pt-br">
 	<head>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/style.css">
-		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">	
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">	
 		<title>Contato - Barbearia Alura</title>
 	</head>
 	<body>
@@ -21,7 +22,7 @@
 			</div>
 		</header>
 			<main>
-				<form>
+				<form class="contato-form">
 					<label for="nomesobrenome">Nome e Sobrenome</label>
 					<input type="text" id="nomesobrenome" class="input-padrao" required >
 
@@ -32,7 +33,7 @@
 					<input type="tel" id="fone" class="input-padrao" placeholder="(XX) XXXXX-XXXX" required>
 
 					<label for="mensagem">Mensagem</label>
-					
+	
 					<textarea id="mensagem" rows="5" cols="30" class="input-padrao" placeholder="Deixe sua sugestão" required></textarea>
 
 					<fieldset class="div-contato">
@@ -51,9 +52,8 @@
 							<option>Tarde</option>
 							<option>Noite</option>
 						</select>
-					
 					</fieldset>
-					
+
 					<fieldset class="div-checkbox">
 						<p class="p-padrao">Qual produto você mais gostou?</p>
 						<label class="checkbox"><input type="checkbox" checked>Cabelo</label>
@@ -68,36 +68,37 @@
 					</fieldset>
 
 					<input class="enviar" type="submit" value="Enviar formulário">
+
+					<fieldset class="horario">
+						<legend class="p-padrao">Horário de Funcionamento</legend>
+						<table class="horario-func">
+							<thead>
+								<tr>
+									<th>Dia</th>
+									<th>Horário</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Segunda</td>
+									<td>8h ~ 20h</td>
+								</tr>
+								<tr>
+									<td>Quarta</td>
+									<td>8h ~ 20h</td>
+								</tr>
+								<tr>
+									<td>Sexta</td>
+									<td>8h ~ 20h</td>
+								</tr>
+							</tbody>
+						</table>
+					</fieldset>
 				</form>
-				<fieldset class="horario">
-					<legend class="p-padrao">Horário de Funcionamento</legend>
-					<table class="horario-func">
-						<thead>
-							<tr>
-								<th>Dia</th>
-								<th>Horário</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>Segunda</td>
-								<td>8h ~ 20h</td>
-							</tr>
-							<tr>
-								<td>Quarta</td>
-								<td>8h ~ 20h</td>
-							</tr>
-							<tr>
-								<td>Sexta</td>
-								<td>8h ~ 20h</td>
-							</tr>
-						</tbody>
-					</table>
-				</fieldset>
 			</main>
 		<footer>
 			<img src="imagem/logo-branco.png" alt="Logo da Barbearia Alura">
-			<p class="copy">&copy; Copyright Barbearia Alura - 2020</p>
+			<p class="copy">&copy; Copyright Dinorá Vicente - 2020</p>
 		</footer>
 	</body>
 </html> 

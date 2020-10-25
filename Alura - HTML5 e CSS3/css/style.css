@@ -8,8 +8,9 @@ body {
 	width: 100%;
 	display: block;
     margin-left: auto;
-    margin-right: auto;
+	margin-right: auto;
 }
+
 .titulo-principal {
 	padding: 10px;
 	margin: 0 0 1em;
@@ -21,6 +22,7 @@ body {
 .principal {
 	padding: 3em 0;
 	width: 940px;
+	line-height: 1.5;
 	margin: 0 auto;
 	background: #FEFEFE;
 }
@@ -41,6 +43,7 @@ body {
 	width: 120px;
 	float: left;
 	margin: 0 20px 20px 0;
+	border-radius: 30px;
 }
 
 .mapa {
@@ -60,7 +63,7 @@ body {
 
 .beneficios {
 	padding: 3em 0;
-	background: #878788;
+	background: #888888;
 }
 
 .conteudo-beneficios {
@@ -88,6 +91,17 @@ body {
 
 .imagem-beneficios {
 	width: 60%;
+	border-radius: 10px;
+	opacity: 1;
+	box-shadow: 10px 10px 30px 5px #000000;
+}
+
+/* BOX-Shadow - X: lados Y:cima p/ baixo, Blur e intensidade da borda */
+/* Box-shadow: inset: posicionada apartir do centro 30px:espaçamento - 0 0 30px #cor  */
+
+.imagem-beneficios:hover {
+	opacity: 0.5;
+	transition: 2s;
 }
 
 .video {
@@ -191,10 +205,6 @@ footer {
 
 /* CSS da página de contato*/
 
-main {
-
-}
-
 form {
 	margin: 40px 0;
 	padding: 30px;
@@ -231,8 +241,16 @@ form label {
 	margin: 20px 0;
 }
 
+.div-horario {
+	margin: 30px 0;
+}
+
+.div-contato {
+	margin: 30px 0;
+}
+
 .div-checkbox {
-	margin: 20px 0;
+	margin: 30px 0;
 }
 
 .div-novidade {
@@ -259,19 +277,81 @@ form label {
 
 .horario {
 	width: 940px;
-	margin: 0 auto;
+	margin: 30px auto;
+	text-align: center;
+	table-layout: fixed;
+	padding: 10px;
 }
 
 .horario-func {
-	margin: 20px 0 40px;
+	margin: 0 auto;
+	text-align: center;
 }
 
 .horario-func thead {
 	background: #878787;
-	font-weight: bold;	
+	font-weight: bold;
+	text-align: center;	
 }
 
 .horario-func td, th {
 	border: 1px solid #000000; 
 	padding: 8px 15px;
+	text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+	.caixa, .principal, .conteudo-beneficios, .mapa-img, .video, .contato-form, .horario, .horario-func {
+		width: auto;
+	}
+
+	.banner {
+		height: 170px;
+	}
+
+	.principal {
+		padding: 10px;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	nav {
+		position: static;
+		text-align: center;
+	}
+
+	.benelist, .imagem-beneficios {
+		width: 98%;
+		margin: 10px 0;
+	}
+
+	.video {
+		width: 98%;
+	}
+
+	.produtos {
+		width: 100%;
+		text-align: center;
+	}
+
+	.produtos li {
+		width: 65%;
+		margin: 4% 1.5%;
+	}
+
+	.input-padrao {
+		width: 50%;
+	}
+
+	.opcoes {
+		font-size: 16px;
+	}
+
+	.enviar {
+		padding: 10px;
+		width: 40%;
+		font-size: medium;
+	}
 }
