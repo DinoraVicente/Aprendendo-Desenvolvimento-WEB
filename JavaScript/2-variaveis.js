@@ -13,4 +13,5 @@ console.log("Trabalhando com Variáveis");
 const idade = 29;
 const nome = "Dinorá";
 let ano = 2020;
-// outro jeito de declarar variáveis.
+
+// outro jeito de declarar variáveis

@@ -12,4 +12,5 @@ const idadeSomada = idade+3;
 console.log(idadeSomada);
 
 //const da nomes para variávies.
+
 //console.log faz com que apareça na tela quando executado.
