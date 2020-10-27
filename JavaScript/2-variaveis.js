@@ -17,4 +17,4 @@ let ano = 2020;
 // outro jeito de declarar variáveis
 
 //não fazer
-mes = "Janeiro";
+//mes = "Janeiro";
