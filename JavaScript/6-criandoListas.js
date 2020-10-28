@@ -21,6 +21,4 @@ console.log(listaDestinos);
 listaDestinos.splice(1, 1); //Contagem começa em 0
 console.log(listaDestinos);
 
-
 console.log(listaDestinos[1]);// Se quiser que apareça um item específico.
-
