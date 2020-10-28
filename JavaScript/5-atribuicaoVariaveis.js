@@ -1,6 +1,5 @@
 console.log("Trabalhando com Atribuição de Variáveis");
 
-const idade = 29;
 const primeiroNome = "Dinorá";
 const sobrenome = "Vicente";
 
@@ -17,3 +16,10 @@ contador = contador + 1;
 
 nomeCompleto = primeiroNome + sobrenome; //Não precisa por const nesse caso, pois está sobrescrevendo ela
 console.log(nomeCompleto);
+
+let idade; //declarando variável
+idade = 26; //Atribuindo valor
+//Const tem que colocar tudo em uma linha,
+//A declaração e a atribuição de valores, já o let não.
+idade = idade + 1;
+console.log(idade);
