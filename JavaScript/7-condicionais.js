@@ -23,20 +23,19 @@ console.log(listaDestinos);
 // }
 
 // || usado como "ou"
-if (idadeComprador >= 18 || estaAcompanhada == true) {
+if (idadeComprador >= 18 || estaAcompanhada) {
     console.log("Boa viagem!");
     listaDestinos.splice(1, 1); //Removendo itens
-     } else {
+}else{
     console.log("Comprador menor de idade, não é possível vender ingresso");
 }
 
 console.log("Embarque: \n\n");
-if(idadeComprador >=18 && temPassagemComprada){
+if (temPassagemComprada && estaAcompanhada || idadeComprador >=18 ) {
     console.log("Boa viagem!");
 }else{
     console.log("Infelizmente você não pode embarcar");
 }
-
 
 console.log(listaDestinos);
 
