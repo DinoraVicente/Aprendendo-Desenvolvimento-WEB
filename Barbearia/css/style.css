@@ -203,6 +203,17 @@ footer {
 	margin: 20px 0;
 }
 
+.direitosAutorais, a {
+	color: #FFFFFF;
+	font-size: 15px;
+	margin: 20px 0;
+	text-decoration: none;
+}
+
+.direitosAutorais a:hover {
+	font-weight: bold; 
+}
+
 /* CSS da página de contato*/
 
 form {
