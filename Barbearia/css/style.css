@@ -122,6 +122,12 @@ header {
 	margin: 0 auto;
 }
 
+.logo {
+	position: relative;
+	width: 200px;
+	margin: 0 auto;
+}
+
 nav {
 	position: absolute;
 	top: 110px;
