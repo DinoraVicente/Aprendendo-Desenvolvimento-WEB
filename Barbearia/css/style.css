@@ -340,8 +340,12 @@ form label {
 }
 
 @media screen and (max-width: 480px) {
-	.caixa, .principal, .conteudo-beneficios, .mapa-img, .video, .contato-form, .horario, .horario-func {
+	.menu, .principal, .sobre, .conteudo-beneficios, .mapa-img, .video, .contato-form, .horario, .horario-func {
 		width: auto;
+	}
+
+	.menu, .logo {
+		margin-bottom: 20px;
 	}
 
 	.banner {
@@ -389,6 +393,7 @@ form label {
 	}
 
 	.enviar {
+		margin-bottom: 40px;
 		padding: 10px;
 		width: 40%;
 		font-size: medium;
