@@ -20,11 +20,16 @@ body {
 }
 
 .principal {
+	width: 100%;
+	margin: 0 auto;
+	background: #e8faff;
+}
+.sobre {
 	padding: 3em 0;
 	width: 940px;
 	line-height: 1.5;
 	margin: 0 auto;
-	background: #FEFEFE;
+	background: #e8faff;
 }
 
 .principal p {
@@ -48,7 +53,7 @@ body {
 
 .mapa {
 	padding: 3em 0;
-	background: linear-gradient(#FEFEFE, #888888);
+	background: linear-gradient(#e8faff, #8bd7ee);
 }
 
 .mapa-img {
@@ -63,7 +68,7 @@ body {
 
 .beneficios {
 	padding: 3em 0;
-	background: #888888;
+	background: #8bd7ee;
 }
 
 .conteudo-beneficios {
@@ -112,11 +117,11 @@ body {
 /* CSS da página produtos junto com a home*/
 
 header {
-	background: #BBBBBB;
-	padding: 20px 0;
+	background: #7ecaf8;
+	padding: 10px 0;
 }
 
-.caixa {
+.menu {
 	position: relative;
 	width: 940px;
 	margin: 0 auto;
@@ -124,13 +129,13 @@ header {
 
 .logo {
 	position: relative;
-	width: 200px;
+	width: 10pc;
 	margin: 0 auto;
 }
 
 nav {
 	position: absolute;
-	top: 110px;
+	top: 50%;
 	right: 0;
 }
 
@@ -152,6 +157,10 @@ nav a:hover {
 	 text-decoration: underline; 
 }
 
+.conteudo-produtos {
+	background: linear-gradient(#e8faff, #8bd7ee);
+}
+
 .produtos {
 	width: 940px;
 	margin: 0 auto;
@@ -168,6 +177,7 @@ nav a:hover {
 	box-sizing: border-box;
 	border: 2px solid #000000;
 	border-radius: 30px; 
+	background: white;
 }
 
 .produtos li:hover {
@@ -179,7 +189,7 @@ nav a:hover {
 }
 
 .produtos li:hover h2 {
-	font-size: 35px;
+	font-size: 31px;
 }
 
 .produtos h2 {
@@ -188,7 +198,7 @@ nav a:hover {
 }
 
 .desc {
-	font-size: 20px;
+	font-size: 19px;
 }
 
 .preco {
@@ -201,6 +211,12 @@ footer {
 	text-align: center;
 	background: url("../imagem/bg.jpg");
 	padding: 40px 0; 
+}
+
+.logo-footer {
+	position: relative;
+	width: 100px;
+	margin: 0 auto;
 }
 
 .copy {
@@ -222,8 +238,11 @@ footer {
 
 /* CSS da página de contato*/
 
+.contato-conteudo {
+	background: linear-gradient(#e8faff, #8bd7ee);	
+}
+
 form {
-	margin: 40px 0;
 	padding: 30px;
 	width: 940px;
 	margin: 0 auto;
@@ -275,8 +294,6 @@ form label {
 }
 
 .enviar {
-	background: #717171 ;
-	color: #FFFFFF;
 	border-radius: 10px;
 	font-size: 15px;
 	font-weight: bold;
@@ -285,16 +302,17 @@ form label {
 	padding: 10px 0;
 	transition: 1s all;
 	cursor: pointer;
+	background: white;
 } 
 
 .enviar:hover {
-	background: #000000;
+	background: #e2e2e2;
 	transform: scale(1.1);
 }
 
 .horario {
 	width: 940px;
-	margin: 30px auto;
+	margin: 0 auto;
 	text-align: center;
 	table-layout: fixed;
 	padding: 10px;
@@ -306,9 +324,13 @@ form label {
 }
 
 .horario-func thead {
-	background: #878787;
+	background: #91f4ff;
 	font-weight: bold;
 	text-align: center;	
+}
+
+.horario-func tbody {
+	background: white;
 }
 
 .horario-func td, th {
