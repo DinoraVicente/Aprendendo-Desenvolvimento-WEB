@@ -39,3 +39,18 @@ for(var i = 0; i < pacientes.length; i ++ ){
         tdImc.textContent = "Altura e/ou peso inválidos!";
     }
 }
+
+/*Exemplo 2 - função anonima
+titulo.addEventListener("click", function(){
+    console.log("Oi");
+});*/
+
+/*Exemplo 1 - função nomeada
+function mostraMensagem(){
+    console.log("Clique");
+}*/
+
+var botaoAdicionar = document.querySelector("#adicionar-paciente");
+botaoAdicionar.addEventListener("click", function(){
+    console.log("oia só");
+});
