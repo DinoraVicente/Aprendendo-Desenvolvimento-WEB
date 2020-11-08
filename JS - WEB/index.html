@@ -14,7 +14,6 @@
 		<!-- Material Design Bootstrap -->
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/index.css">
-		<script src="js/principal.js" defer></script>
 	</head>
 	<body>	
 		<header>
@@ -27,7 +26,7 @@
 			<section class="container-pacientes">
 				<h2>Meus pacientes</h2>
 				<table>
-					<thead>
+					<thead class="cabecalhoTabela">
 						<tr>
 							<th>Nome</th>
 							<th>Peso(kg)</th>
@@ -39,7 +38,7 @@
 					<tbody id="tabela-pacientes">
 						<tr class="paciente" id="primeiro-paciente">
 							<td class="info-nome">Paulo</td>
-							<td class="info-peso">1000</td>
+							<td class="info-peso">1020</td>
 							<td class="info-altura">2.00</td>
 							<td class="info-gordura">10</td>
 							<td class="info-imc">0</td>
@@ -48,7 +47,7 @@
 						<tr class="paciente" >
 							<td class="info-nome">João</td>
 							<td class="info-peso">80</td>
-							<td class="info-altura">3.72</td>
+							<td class="info-altura">2.56</td>
 							<td class="info-gordura">40</td>
 							<td class="info-imc">0</td>
 						</tr>
@@ -128,14 +127,16 @@
 						<!-- Grid column -->
 					</div>
 					<!-- Grid row -->
-					<button id="adicionar-paciente" type="submit" class="btn btn-primary btn-md">Enviar</button>
+					<button id="adicionar-paciente" type="submit">Enviar</button>
 				</form>
-				<!-- Extended material form grid -->
 			</section>
 		</main>
 		<footer>
 			<div class="direitosAutorais">Ícones feitos por <a href="https://www.flaticon.com/br/autores/freepik" title="Freepik">Freepik</a></div>
 		</footer>
+		<!-- Meus scripts -->
+		<script src="js/calculoImc.js"></script>
+		<script src="js/form.js"></script>
 		<!-- JQuery -->
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		<!-- Bootstrap tooltips -->
