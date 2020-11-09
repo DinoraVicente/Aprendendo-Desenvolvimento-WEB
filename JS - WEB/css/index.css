@@ -52,6 +52,11 @@ header .container:before{
 	margin-top: 50px;
 }
 
+#mensagemDeErro {
+	font-weight: bold;
+	color: red;
+}
+
 .container-novo-paciente {
 	width: 60%;
 	height: 100%;
@@ -94,15 +99,15 @@ td, th {
 }
 
 th{
-	font-weight: bold;
+	font-weight: bold !important;
 	background-color: #EEE;
 }
 
 label{
-	color: #555;
+	color: #828282;
 	display: block;
 	margin-bottom: .3em;
-	font-weight: bold;
+	font-weight: bold !important;
 }
 
 .campo{
@@ -171,7 +176,7 @@ footer {
 	font-size: 15px;
 	color: #fff;
 	text-align: center;
-	background: url("https://github.com/DinoraVicente/Aprendendo-Desenvolvimento-WEB/blob/main/Barbearia/imagem/bg.jpg?raw=true");
+	background: url("../img/bg.jpg");
 	margin-top: 30px;
 	width: 100%;
 	height: 50px;
