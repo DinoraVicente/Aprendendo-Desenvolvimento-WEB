@@ -1,2 +1,3 @@
-#Aprendendo JS
+#Aprendendo JS.
+
 Cursos realizados na Alura, iniciante.
