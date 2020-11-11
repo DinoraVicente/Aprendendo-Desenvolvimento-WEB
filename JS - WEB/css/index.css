@@ -52,7 +52,7 @@ header .container:before{
 	margin-top: 50px;
 }
 
-#mensagemDeErro {
+#mensagemErro {
 	font-weight: bold;
 	color: red;
 }
