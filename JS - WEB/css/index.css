@@ -167,6 +167,19 @@ button[disabled=disabled], button:disabled {
 	font-weight: bold;
 }
 
+#filtrarTabela {
+	margin-bottom: 20px !important;
+	padding: 5px !important;
+	margin-right: 1000px;
+}
+
+#filtro{
+	font-weight: bold;
+	font-size: 16px;
+	color: #000000;
+	text-align: left;
+}
+
 .container-novo-paciente button {
 	margin: 0 auto;
 	margin-top: 20px;
@@ -195,4 +208,8 @@ footer a {
 .fadeOut {
 	opacity: 0;
 	transition: 0.5s;
+}
+
+.invisivel{
+	display: none;
 }
