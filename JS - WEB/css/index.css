@@ -191,3 +191,8 @@ footer a {
 .direitosAutorais {
 	text-decoration: none;
 }
+
+.fadeOut {
+	opacity: 0;
+	transition: 0.5s;
+}
